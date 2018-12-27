@@ -159,7 +159,7 @@ def run():
         # Create function to get batches
         get_batches_fn = helper.gen_batch_function(os.path.join(data_dir, 'data_road/training'), image_shape)
 
-        epoches = 10
+        epoches = 20
         batch_size = 16
 
         # declare place holder for correct_label and learning_rate
